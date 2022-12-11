@@ -1,18 +1,19 @@
 import React from "react";
 
-interface IGitMetadata {
-  // info
+export interface IGitMetadata {
+  user: string;
+  commit: string;
+  branch: string;
+  date: string;
+  remotes: Array<{
+    name: string;
+    url: string;
+  }>;
 }
 
-type IGitMetadataProps = {
+export type IGitMetadataProps = {
   render?: React.FC<IGitMetadata>;
-} & (
-  | {
-      metadata: IGitMetadata;
-    }
-  | {
-      filepath: string;
-    }
-);
+  metadata: IGitMetadata;
+};
 
 export const GitMetadata: React.FC<IGitMetadataProps>;

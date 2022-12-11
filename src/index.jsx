@@ -2,4 +2,4 @@
  * @file - export all components here.
  */
 
-export * from './components/Demo.jsx';
+export * from "./components/GitMetadata.jsx";

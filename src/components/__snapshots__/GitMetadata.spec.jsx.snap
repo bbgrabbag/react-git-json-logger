@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <GitMetadata/> Component Should render custom template with metadata populated 1`] = `
+<div
+  data-testid="rgjs__custom-template"
+>
+  <p>
+    <b>
+      User
+    </b>
+    :
+    Ben Turner &lt;bbgrabbag@gmail.com&gt;
+  </p>
+</div>
+`;
+
+exports[`Test <GitMetadata/> Component Should render default template with metadata populated 1`] = `
+<div
+  data-testid="rgjs__default-template"
+  style="font-family: monospace; padding: 1rem;"
+>
+  <p>
+    <b>
+      user
+    </b>
+    : 
+    <span>
+      Ben Turner &lt;bbgrabbag@gmail.com&gt;
+    </span>
+  </p>
+  <p>
+    <b>
+      branch
+    </b>
+    : 
+    <span>
+      master
+    </span>
+  </p>
+  <p>
+    <b>
+      commit
+    </b>
+    : 
+    <span>
+      76a24814698de41e5acf369c65575c83144c4726
+    </span>
+  </p>
+  <p>
+    <b>
+      date
+    </b>
+    : 
+    <span>
+      2022-12-11T02:39:34.000Z
+    </span>
+  </p>
+  <div>
+    <p>
+      <b>
+        remotes
+      </b>
+      :
+    </p>
+    <ul>
+      <li>
+        <b>
+          origin
+        </b>
+        : 
+        <span>
+          git@github.com:bbgrabbag/react-git-json-logger.git (fetch)
+        </span>
+      </li>
+      <li>
+        <b>
+          origin
+        </b>
+        : 
+        <span>
+          git@github.com:bbgrabbag/react-git-json-logger.git (push)
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

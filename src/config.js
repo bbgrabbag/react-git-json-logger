@@ -1,1 +1,0 @@
-export const DATA_TEST_ID = 'rgjs__default-template'
