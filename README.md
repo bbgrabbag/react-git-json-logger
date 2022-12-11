@@ -34,11 +34,10 @@ npm i -D git-json-logger-cli
 - Add `pre*` scripts so that the metadata file is generated automatically before builds:
 
 ```json
-"scripts": {
-    "git-logger":"git-logger",
     // In a CRA project, for example:
-    "prestart": "npm run git-logger",
-    "prebuild": "npm run git-logger",
+"scripts": {
+    "prestart": "git-logger --outdir ./src",
+    "prebuild": "git-logger --outdir ./src",
 }
 ```
 
