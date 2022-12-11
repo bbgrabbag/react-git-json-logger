@@ -27,7 +27,7 @@ npm i -D git-json-logger-cli
 
 ```json
 "scripts": {
-    "create-git-metadata":"git-logger",
+    "git-logger":"git-logger",
 }
 ```
 
